@@ -4,38 +4,35 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FORMATAÇÃO DE TEXTOS</title>
-  <style>
-    mark{
-      background-color: limegreen;
-    }
-  </style>
+  <title>Outras Formatações</title>
 </head>
 <body>
-  <h1>Principais formatações</h1>
-  <h2>Negrito/destaque</h2>
-  <p>Nesta frase temos um <b>TERMO EM NEGRITO </b>usando a tag B(não semântica).</p>
-  <p>Nesta frasen, tenho um <strong>TERMO EM DESTAQUE </strong>usando a tag STRONG(semântica).</p>
-  <h2>Itálico / Ênfase</h2>
-  <p>Nesta frase, temos um <i>TERMO ITÁLICO</i> usando a tag I(não semântica)</p>
-  <p>vamos tentar de novo o <i>TERMO ITÁLICO</i></p>
-  <p>Nesta frase, temos um <em>TERMO EM ÊNFASE</em> usando a tag EM (semântica)</p>
-  <h2>Texto Marcado</h2>
-  <p>Podemos criar também <mark>um texto marcado</mark> usando a Tag Mark.</p>
-  <p>
-    Podemos <mark>trocar a cor do marcador</mark> dessa forma </p>
-    <p>Estamops criando um <BIG>TEXTO GRANDE</BIG> e um <small>TEXTO PEQUENO</small> nesse parágrafo</p>
-    <h2>Texto deletado</h2>
-    <p>Podemos marcar um <del>texto como excluído</del> para indicar que ele deve ser lido,mas não considerado </p>
-    <h2>Texto Inserido</h2>
-    <p>Podemos marcar um <ins>texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois</p>
-    <p>Existe também o <u>sublinhado</u> com a TAG U( não semântico)</p>
-    <h2>TEXTO SOBRESCRITO</h2>
-    <P>para inseriri coisas do tipo x<SUP>20</SUP>+3</P>
-    <h2>TEXTO SUBESCRITO</h2>
-    <p>Para inserir coisas do tipo H<sub>2</sub>O</p>
+  <h1>Outras Formatações</h1>
+  <h2>Código-fonte</h2>
+  <p>O Comando <code>document.getElementById("Teste")</code> é escrito em JavaScript.</p>
+  <pre>
+    <code>
+    num=int(imput('Digite um número'))
+    if num % 2 ==0:
+      print(f'O número {num}é PAR')
+    else:
+      print('O número {num}é IMPAR')
+    print('FIM DO PROGRAMA')    
+    </code>
+  </pre>
+  <h2>Como diria o pai de um amigo: <q>o computador é um burro muito rápido.</q></h2>
+  <h2>Citações completas</h2>
+  <blockquote cite="https://www.google.com.br/books/edition/Guia_de_Orienta%C3%A7%C3%A3o_e_Desenvolvimento_d/1YuwDwAAQBAJ?hl=pt-BR&gbpv=0">
+
+    Ao estudante que deseja aprender a desenvolver códigos HTML, XHTML, CSS e JavaScript (JScript) para a Internet, este livro traz importantes instruções para alcançar este objetivo. De forma didática apresenta informações relacionadas com a Internet e com o processo de comunicação, planejamento de sites, estrutura de escrita do código em linguagem de marcação de hipertextos, uso de imagens, tabelas, formulários, folhas de estilo, pontos de ligação, recursos dinâmicos com linguagens de script (sequência, decisões, laços, matrizes, funções), uso de cores, além de exercícios de fixação. A segunda edição foi revisada e atualizada com alguns ajustes e complementos. A forma de centralização das tabelas foi alterada para o padrão HTML 4.01, além de incluir uma breve descrição do padrão HTML 5.
+
+  </blockquote>
+  <h2>Abreviações</h2>
+  <p>Estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>, estou adorando!</p>
+  <h2>Texto Invertido</h2>
+  <p><bdo dir="ltr">Estou aprendendo a criar coisas em HTML.</bdo></p>
+  <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p>
 
 
-  
 </body>
 </html>
